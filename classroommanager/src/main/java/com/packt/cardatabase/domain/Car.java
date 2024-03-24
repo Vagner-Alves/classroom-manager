@@ -4,8 +4,13 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import lombok.Getter;
+import lombok.Setter;
+
 
 @Entity
+@Getter
+@Setter
 public class Car {
     @Id
     @GeneratedValue
@@ -15,5 +20,6 @@ public class Car {
 
     @Column(name="explanation",nullable =true, length =512)
     private String description;
+
 
 }
