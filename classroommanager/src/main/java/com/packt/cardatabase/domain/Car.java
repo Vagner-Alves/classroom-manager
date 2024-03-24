@@ -4,13 +4,13 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 
 @Entity
 @Getter
 @Setter
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class Car {
     @Id
     @GeneratedValue
@@ -21,5 +21,7 @@ public class Car {
     @Column(name="explanation",nullable =true, length =512)
     private String description;
 
+    public Car() {
 
+    }
 }
