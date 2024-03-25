@@ -2,9 +2,6 @@ package br.edu.ifpe.palmares.classroommanager.domain;
 
 import jakarta.persistence.*;
 
-import java.awt.*;
-
-
 @Entity
 
 public class Car {
@@ -86,6 +83,5 @@ public class Car {
     public void setPrice(int price) {
         this.price = price;
     }
-
 
 }
