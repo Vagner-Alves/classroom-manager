@@ -10,6 +10,13 @@ import com.packt.cardatabase.domain.CarRepository;
 
 @SpringBootApplication
 public class ClassroommanagerApplication implements CommandLineRunner {
+	private static final Logger logger =
+			LoggerFactory.getLogger(
+					ClassroommanagerApplication.class
+			);
+	private final CarRepository repository;
+	public ClassroommanagerApplication(CarRepository repository) {
+		this.repository = repository;
 
 	public static void main(String[] args) {
 
