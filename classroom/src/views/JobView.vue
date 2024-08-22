@@ -79,9 +79,7 @@ onMounted(async () => {
                 {{ state.job.description }}
               </p>
 
-              <h3 class="text-green-800 text-lg font-bold mb-2">Salary</h3>
-
-              <p class="mb-4">{{ state.job.salary }} / Year</p>
+              
             </div>
           </main>
 

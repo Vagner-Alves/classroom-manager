@@ -8,7 +8,7 @@
         type: 'Sala',
         title: '',
         description: '',
-        salary: '',
+        //salary: '',
         location: '',
         company: {
             name: '',
@@ -27,7 +27,7 @@
             title: form.title,
             type: form.type,
             description: form.description,
-            salary: form.salary,
+            //salary: form.salary,
             location: form.location,
             company: {
                 name: form.company.name,
@@ -110,30 +110,8 @@
               ></textarea>
             </div>
 
-            <div class="mb-4">
-              <label for="type" class="block text-gray-700 font-bold mb-2"
-                >Salary</label
-              >
-              <select
-                id="salary"
-                v-model="form.salary"
-                name="salary"
-                class="border rounded w-full py-2 px-3"
-                required
-              >
-                <option value="Under $50K">under $50K</option>
-                <option value="$50K - $60K">$50 - $60K</option>
-                <option value="$60K - $70K">$60 - $70K</option>
-                <option value="$70K - $80K">$70 - $80K</option>
-                <option value="$80K - $90K">$80 - $90K</option>
-                <option value="$90K - $100K">$90 - $100K</option>
-                <option value="$100K - $125K">$100 - $125K</option>
-                <option value="$125K - $150K">$125 - $150K</option>
-                <option value="$150K - $175K">$150 - $175K</option>
-                <option value="$175K - $200K">$175 - $200K</option>
-                <option value="Over $200K">Over $200K</option>
-              </select>
-            </div>
+           
+          
 
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2">

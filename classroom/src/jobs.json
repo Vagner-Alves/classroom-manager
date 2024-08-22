@@ -111,6 +111,19 @@
         "contactEmail": "xxx@gmail.com",
         "contactPhone": "81998327840"
       }
+    },
+    {
+      "id": "0646",
+      "title": "teste",
+      "type": "Sala",
+      "description": "xxxxxxxxxx",
+      "location": "Campus -  Palmares",
+      "company": {
+        "name": "Dolor Cloud",
+        "description": "yyyyyyyyyyy",
+        "contactEmail": "xxx@gmail.com",
+        "contactPhone": "81998327840"
+      }
     }
   ]
 }
