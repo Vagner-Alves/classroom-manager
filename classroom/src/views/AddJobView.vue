@@ -66,7 +66,7 @@
 
             <div class="mb-4">
               <label for="type" class="block text-gray-700 font-bold mb-2"
-                >Adicionar Sala</label
+                >Tipo de Sala</label
               >
               <select
                 v-model="form.type"
@@ -75,16 +75,14 @@
                 class="border rounded w-full py-2 px-3"
                 required
               >
-                <option value="Full-Time">Full-Time</option>
-                <option value="Part-Time">Part-Time</option>
-                <option value="Remote">Remote</option>
-                <option value="Internship">Internship</option>
+                <option value="Full-Time">Sala de Aula</option>
+                <option value="Part-Time">Laboratório</option>
               </select>
             </div>
 
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2"
-                >Job Listing Name</label
+                >Nome</label
               >
               <input
                 type="text"
@@ -100,7 +98,7 @@
               <label
                 for="description"
                 class="block text-gray-700 font-bold mb-2"
-                >Description</label
+                >Descrição</label
               >
               <textarea
                 id="description"

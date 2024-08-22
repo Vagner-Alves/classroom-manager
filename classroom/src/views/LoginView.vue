@@ -47,12 +47,12 @@ import { RouterLink } from 'vue-router';
         </div>
 
         <div class="flex items-center justify-between">
-          <button
+          <RouterLink to="/"
             class="bg-green-900 hover:bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="submit"
           >
             Entrar
-          </button>
+          </RouterLink>
           <a
             class="inline-block align-baseline font-bold text-sm text-white hover:text-blue-800"
             href="#"
@@ -64,8 +64,6 @@ import { RouterLink } from 'vue-router';
     </div>
   </div>
 
-        <RouterLink  to="/login">
-           
-        </RouterLink>
+        
     </section>
 </template>
