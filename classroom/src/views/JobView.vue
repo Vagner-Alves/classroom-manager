@@ -19,18 +19,18 @@ const state = reactive({
 const deleteJob = async() =>{
   try {
 
-     const confirm = window.confirm('Are you sure to delete this job ?');
+     const confirm = window.confirm('Tem certeza que quer deletar esse recurso ?');
      if (confirm){
         await axios.delete(`/api/jobs/${jobId}`);
-        toast.success('job deleted');
+        toast.success('Recurso Deletado');
         router.push('/jobs');
 
      }
     
 
   } catch (error) {
-    console.error('error deleting job', error);
-    toast.error('job was not deleted');
+    console.error('erro ao deletar', error);
+    toast.error('não foi deletado');
     
   }
 }

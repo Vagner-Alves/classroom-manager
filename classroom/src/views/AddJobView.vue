@@ -41,13 +41,13 @@
         try {
            const response = await axios.post(`/api/jobs`, newJob);
 
-           toast.success('job added sucessfully');
+           toast.success('Adicionado com Sucesso.');
            router.push(`/jobs/${response.data.id}`);
 
         } catch (error) {
 
             console.error('Error Fetching the data', error);
-            toast.error('Job was not added')
+            toast.error('Não pode ser adiconado.')
         }
     
     };
@@ -124,6 +124,7 @@
                 required
               />
             </div>
+            
 
             <h3 class="text-2xl mb-5">Informações dos Recursos</h3>
 

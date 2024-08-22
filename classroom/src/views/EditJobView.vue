@@ -51,13 +51,13 @@
         try {
            const response = await axios.put(`/api/jobs/${jobId}`, updateJob);
 
-           toast.success('job updated sucessfully');
+           toast.success('informação atualizada');
            router.push(`/jobs/${response.data.id}`);
 
         } catch (error) {
 
             console.error('Error Fetching the data', error);
-            toast.error('Job was not added')
+            toast.error('informação não pode ser atualizada')
         }
     
     };
