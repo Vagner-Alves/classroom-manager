@@ -76,7 +76,7 @@
                 required
               >
                 <option value="Sala">Sala de Aula</option>
-                <option value="Part-Time">Laboratório</option>
+                <option value="Laboratorio">Laboratório</option>
               </select>
             </div>
 
