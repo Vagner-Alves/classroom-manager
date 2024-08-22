@@ -1,18 +1,14 @@
 {
   "jobs": [
     {
-      "id": "1",
       "title": "Senior Vue Developer",
-      "type": "Full-Time",
+      "type": "Part-Time",
       "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
-      "location": "Boston, MA",
-      "salary": "$70K - $80K",
+      "location": "Ribeirao",
       "company": {
-        "name": "NewTek Solutions",
-        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
-        "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
-      }
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment."
+      },
+      "id": "1"
     },
     {
       "id": "2",
@@ -85,18 +81,14 @@
       }
     },
     {
-      "id": "596c",
       "title": "aws intern",
-      "type": "Internship",
-      "description": "huge ass salary",
-      "salary": "Over $200K",
+      "type": "Sala",
+      "description": "huge ass salaryefefef",
       "location": "riberao",
       "company": {
-        "name": "xxxxxxx",
-        "description": "xxxxxxxxxx",
-        "contactEmail": "xxx@gmail.com",
-        "contactPhone": "xx"
-      }
+        "description": "xxxxxxxxxxuoeelfnboeboefbepioioefbeofbeofe"
+      },
+      "id": "596c"
     },
     {
       "id": "6fea",
@@ -123,6 +115,16 @@
         "description": "yyyyyyyyyyy",
         "contactEmail": "xxx@gmail.com",
         "contactPhone": "81998327840"
+      }
+    },
+    {
+      "id": "6933",
+      "title": "LAB 9",
+      "type": "Sala",
+      "description": "melhor laboratório , dedicado as aulas da melhor turma de ADS do Campus Palmares.",
+      "location": "indisponivel",
+      "company": {
+        "description": "computadores e café"
       }
     }
   ]

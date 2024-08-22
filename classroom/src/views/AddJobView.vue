@@ -11,10 +11,10 @@
         //salary: '',
         location: '',
         company: {
-            name: '',
+            //name: '',
             description: '',
-            contactEmail: '',
-            contactPhone: '',
+            //contactEmail: '',
+            //contactPhone: '',
 
         }
 
@@ -30,10 +30,10 @@
             //salary: form.salary,
             location: form.location,
             company: {
-                name: form.company.name,
+                //name: form.company.name,
                 description: form.company.description,
-                contactEmail: form.company.contactEmail,
-                contactPhone: form.company.contactPhone
+                //contactEmail: form.company.contactEmail,
+                //contactPhone: form.company.contactPhone
             }
         }
 
@@ -90,7 +90,7 @@
                 id="name"
                 name="name"
                 class="border rounded w-full py-2 px-3 mb-2"
-                placeholder="eg. Beautiful Apartment In Miami"
+                placeholder="A1, B2 etc."
                 required
               />
             </div>
@@ -106,12 +106,9 @@
                 name="description"
                 class="border rounded w-full py-2 px-3"
                 rows="4"
-                placeholder="Add any job duties, expectations, requirements, etc"
+                placeholder="Disciplinas , turmas , turnos , quantidade de alunos suportados etc."
               ></textarea>
             </div>
-
-           
-          
 
             <div class="mb-4">
               <label class="block text-gray-700 font-bold mb-2">
@@ -123,32 +120,20 @@
                 id="location"
                 name="location"
                 class="border rounded w-full py-2 px-3 mb-2"
-                placeholder="Company Location"
+                placeholder="disponibilidade (pode ser mudado depois)"
                 required
               />
             </div>
 
-            <h3 class="text-2xl mb-5">Company Info</h3>
+            <h3 class="text-2xl mb-5">Informações dos Recursos</h3>
 
-            <div class="mb-4">
-              <label for="company" class="block text-gray-700 font-bold mb-2"
-                >Company Name</label
-              >
-              <input
-                type="text"
-                v-model="form.company.name"
-                id="company"
-                name="company"
-                class="border rounded w-full py-2 px-3"
-                placeholder="Company Name"
-              />
-            </div>
+           
 
             <div class="mb-4">
               <label
                 for="company_description"
                 class="block text-gray-700 font-bold mb-2"
-                >Company Description</label
+                >Adicionar Recursos</label
               >
               <textarea
                 id="company_description"
@@ -156,48 +141,18 @@
                 name="company_description"
                 class="border rounded w-full py-2 px-3"
                 rows="4"
-                placeholder="What does your company do?"
+                placeholder="Computadores, impressoras, Data show e etc..."
               ></textarea>
             </div>
 
-            <div class="mb-4">
-              <label
-                for="contact_email"
-                class="block text-gray-700 font-bold mb-2"
-                >Contact Email</label
-              >
-              <input
-                type="email"
-                v-model="form.company.contactEmail"
-                id="contact_email"
-                name="contact_email"
-                class="border rounded w-full py-2 px-3"
-                placeholder="Email address for applicants"
-                required
-              />
-            </div>
-            <div class="mb-4">
-              <label
-                for="contact_phone"
-                class="block text-gray-700 font-bold mb-2"
-                >Contact Phone</label
-              >
-              <input
-                type="tel"
-                v-model="form.company.contactPhone"
-                id="contact_phone"
-                name="contact_phone"
-                class="border rounded w-full py-2 px-3"
-                placeholder="Optional phone for applicants"
-              />
-            </div>
+        
 
             <div>
               <button 
                 class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
                 type="submit"
               >
-                Add Job
+                Adicionar
               </button>
             </div>
           </form>

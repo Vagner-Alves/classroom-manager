@@ -97,15 +97,10 @@ onMounted(async () => {
 
               <hr class="my-4" />
 
-              <h3 class="text-xl">Contact Email:</h3>
-
               <p class="my-2 bg-green-100 p-2 font-bold">
-                {{ state.job.company.contactEmail }}
+                
               </p>
-
-              <h3 class="text-xl">Contact Phone:</h3>
-
-              <p class="my-2 bg-green-100 p-2 font-bold">{{ state.job.company.contactPhone }}</p>
+              <p class="my-2 bg-green-100 p-2 font-bold"> </p>
             </div>
 
             <!-- Manage -->
