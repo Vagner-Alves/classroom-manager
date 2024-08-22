@@ -51,7 +51,7 @@ import { RouterLink } from 'vue-router';
             class="bg-green-900 hover:bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="submit"
           >
-            Sign In
+            Entrar
           </button>
           <a
             class="inline-block align-baseline font-bold text-sm text-white hover:text-blue-800"
