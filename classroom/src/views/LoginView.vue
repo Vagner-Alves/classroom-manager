@@ -57,7 +57,7 @@ import { RouterLink } from 'vue-router';
             class="inline-block align-baseline font-bold text-sm text-white hover:text-blue-800"
             href="#"
           >
-            Esqueceu a senha?
+            criar conta
           </a>
         </div>
       </form>
