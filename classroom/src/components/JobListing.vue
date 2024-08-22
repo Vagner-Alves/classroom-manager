@@ -33,7 +33,7 @@
                 <div>
                   {{ truncateDescription }}
                   <button @click="toggleFullDescription" class="text-green-500 hover:text-green-600 mb-5">
-                      {{ showFullDescription ? 'Less' : 'More' }}
+                      {{ showFullDescription ? 'Menos' : 'Mais' }}
                   </button>
                 </div>
                
