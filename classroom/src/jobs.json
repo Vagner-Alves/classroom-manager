@@ -9,6 +9,16 @@
         "description": "Computadores,\nQuadro ,\nCadeiras e Mesas de estudo."
       },
       "id": "2113"
+    },
+    {
+      "id": "eaca",
+      "title": "A1",
+      "type": "Sala",
+      "description": "Sala dedicada a ministrar aulas para o ensino médio integrado A1",
+      "location": "disponivel",
+      "company": {
+        "description": "Cadeiras, mesas, quadro em branco, Data show, lápis piloto ( Hidrocor) e etc."
+      }
     }
   ]
 }
