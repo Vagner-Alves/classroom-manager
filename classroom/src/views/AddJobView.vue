@@ -5,7 +5,7 @@
     import axios from 'axios';
 
     const form = reactive({
-        type: 'Part-time',
+        type: 'Sala',
         title: '',
         description: '',
         salary: '',
@@ -75,7 +75,7 @@
                 class="border rounded w-full py-2 px-3"
                 required
               >
-                <option value="Full-Time">Sala de Aula</option>
+                <option value="Sala">Sala de Aula</option>
                 <option value="Part-Time">Laboratório</option>
               </select>
             </div>
